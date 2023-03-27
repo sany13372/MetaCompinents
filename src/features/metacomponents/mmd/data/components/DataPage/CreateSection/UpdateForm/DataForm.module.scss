@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  > div:nth-child(1) {
+    display: flex;
+    justify-content: flex-end;
+
+    > img {
+      cursor: pointer;
+      max-width: 30px;
+    }
+  }
+  > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: auto;
+  }
+
+  > h5 {
+    cursor: pointer;
+
+    &:hover {
+      color: #a4caff;
+    }
+  }
+}
+
+
+

@@ -1,0 +1,11 @@
+.sideBar{
+  flex: 0 1 17%;
+  background-color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.2rem;
+  padding-bottom: 3rem;
+  > div:nth-child(2){
+    flex: 1 1 auto;
+  }
+}

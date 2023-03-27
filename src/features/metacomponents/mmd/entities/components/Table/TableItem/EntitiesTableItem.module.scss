@@ -1,0 +1,37 @@
+.item {
+  display: grid;
+  cursor: pointer;
+  grid-template-columns:35% 12% 18% 35%;
+
+  > div {
+    display: flex;
+    padding: 0.8rem 0rem 0.8rem 1rem;
+    border-bottom: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+
+  > div:last-child{
+    border-right:none;
+  }
+}
+
+.icons {
+  position: relative;
+  > div {
+    position: absolute;
+    top: 17%;
+    right: 5%;
+    display: flex;
+    gap: 20px;
+    > img {
+      max-width: 25px;
+      max-height: 25px;
+    }
+  }
+
+}
+

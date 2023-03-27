@@ -1,0 +1,28 @@
+.head {
+  display: grid;
+  grid-template-columns:35% 12% 18% 35%;
+  z-index: 50;
+  position: sticky;
+  top:-1px;
+  background-color: #eaeaea;
+  //background: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 5px 5px 0px 0px;
+
+  > div {
+    display: flex;
+    border-bottom: 1px solid #dedede;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 0.6rem 0rem 0.6rem 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+
+  > div:nth-child(2) {
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+}

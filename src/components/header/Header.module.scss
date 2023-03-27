@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  min-height: 45px;
+  padding-left: 1rem;
+  padding-right: 0.6rem;
+  border-bottom: 1px solid #BBBBBB;
+  > div:nth-child(1){
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+  }
+}

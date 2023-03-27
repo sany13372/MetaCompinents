@@ -1,0 +1,29 @@
+.link {
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: rgba(0, 0, 0, .55);
+  padding: 2px 4px;
+  cursor: pointer;
+
+  &:hover {
+    color: rgba(0, 0, 0, .55);
+
+    &:after {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .55);
+      opacity: 0.2;
+    }
+  }
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

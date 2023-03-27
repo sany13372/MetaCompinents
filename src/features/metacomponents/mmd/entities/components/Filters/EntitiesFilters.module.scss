@@ -1,0 +1,37 @@
+.line {
+  display: flex;
+  justify-content: space-between;
+  background: #EAEAEA;
+  border-radius: 5px;
+  padding: 1rem 4rem;
+  margin-bottom: 0.8rem;
+  > div {
+    text-align: center;
+
+    > h5 {
+      margin-bottom: 1rem;
+    }
+  }
+
+
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  > div{
+    cursor: pointer;
+  }
+  > input {
+    //width: 300px;
+    padding: 0rem 0.2rem;
+    background-color: transparent;
+    height: 28px;
+  }
+}
+
+.filterDate{
+    background-color: transparent;
+}

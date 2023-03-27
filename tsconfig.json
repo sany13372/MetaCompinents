@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "paths": {
+      "@assets/*": ["assets/*"],
+      "@fonts/*": ["assets/fonts/*"],
+      "@styles/*": ["assets/styles/*"],
+      "@img/*": ["assets/img/*"],
+
+      "@features/*": ["features/*"],
+      "@mmd/*": ["features/metacomponents/mmd/*"],
+      "@vault/*": ["features/metacomponents/vault/*"],
+      "@orchestrator/*": ["features/metacomponents/orchestrator/*"],
+      "@staging/*": ["features/metacomponents/staging/*"],
+      "@control/*": ["features/metacomponents/control/*"],
+
+      "@accessDenied/*": ["features/accessDenied/*"],
+      "@authorization/*": ["features/authorization/*"],
+      "@notFound/*": ["features/notFound/*"],
+
+      "@components/*": ["components/*"],
+      "@context/*": ["context/*"],
+      "@data/*": ["data/*"],
+      "@hooks/*": ["hooks/*"],
+      "@pages/*": ["pages/*"],
+      "@services/*": ["services/*"],
+      "@types/*": ["types/*"],
+      "@utils/*": ["utils/*"]
+    }
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

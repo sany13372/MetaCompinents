@@ -1,0 +1,36 @@
+.create {
+  flex: 1 1 auto;
+
+  > h5 {
+    cursor: pointer;
+  }
+
+  > h4 {
+    margin-bottom: 1rem;
+  }
+
+  > input {
+    margin-bottom: 1rem;
+  }
+}
+
+.line {
+  display: flex;
+  gap: 5px;
+}
+
+.title {
+  cursor: pointer;
+
+  &:hover {
+    color: #a4caff;
+  }
+
+  &.acitve {
+    color: #a4caff;
+  }
+}
+
+.select{
+  width: 200px;
+}

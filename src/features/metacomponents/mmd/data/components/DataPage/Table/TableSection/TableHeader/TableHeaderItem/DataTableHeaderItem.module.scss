@@ -1,0 +1,19 @@
+.item{
+  position: relative;
+  border-bottom: 1px solid #dedede;
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.item:last-child{
+  border-right: none;
+}
+
+.icon{
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 5%;
+  width: 15px;
+  height: 15px;
+}

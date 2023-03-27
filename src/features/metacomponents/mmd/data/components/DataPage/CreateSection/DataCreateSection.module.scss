@@ -1,0 +1,31 @@
+
+.table {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  padding: 1rem;
+  display: none;
+
+  &.active {
+    display: block;
+    animation: ani 1s ease;
+  }
+
+}
+
+@keyframes ani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes dis {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,16 @@
+.line {
+  display: flex;
+  gap: 2rem;
+  padding: 0rem 2rem 4rem 2rem;
+
+  > div:nth-child(1) {
+    flex: 1 1 auto;
+  }
+
+  > div:nth-child(2) {
+    > img {
+      max-width: 30px;
+    }
+  }
+}
+

@@ -1,0 +1,16 @@
+.update{
+  flex: 1 1 auto;
+
+  > h4 {
+    margin-bottom: 1rem;
+  }
+
+  > input {
+    margin-bottom: 1rem;
+  }
+}
+
+.line{
+  display: flex;
+  gap: 20px;
+}

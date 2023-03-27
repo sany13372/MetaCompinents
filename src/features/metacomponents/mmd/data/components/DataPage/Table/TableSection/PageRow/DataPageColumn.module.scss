@@ -1,0 +1,33 @@
+.icon {
+  width: 15px;
+  height: 15px;
+}
+
+.validate {
+  position: sticky;
+  text-align: center;
+  border-right: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  cursor: pointer;
+}
+
+.column {
+  cursor: pointer;
+  position: relative;
+
+  &.active {
+    background-color: #a4caff;
+    //background-color: #0080f0;
+    //background-color: #57b0ff;
+    //background-color: #b3cce6;
+  }
+
+  > img {
+    position: absolute;
+    top: 17%;
+    right: 2%;
+    max-width: 25px;
+    max-height: 25px;
+  }
+}
+
