@@ -24,8 +24,6 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div>
-        <h4></h4>
-        <h5></h5>
         <DefaultBreadcrumb />
         {mmdPath && location.pathname !== "/" && <MmdBreadcrumb profileName={profileName} />}
       </div>
